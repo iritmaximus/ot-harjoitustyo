@@ -20,5 +20,6 @@ fn why() -> i8 {
 fn main() {
     let iq: i8 = why();
     println!("{}", iq);
+    let dumb = me;
 }
 ```

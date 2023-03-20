@@ -7,6 +7,9 @@
 - moni
 - `asia`
 
+* [gitlog.txt](https://github.com/iritmaximus/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)
+* [komentorivi.txt](https://github.com/iritmaximus/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)
+
 ```rust
 use std::dumb::me
 

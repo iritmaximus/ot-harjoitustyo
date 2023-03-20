@@ -16,4 +16,9 @@ use std::dumb::me
 fn why() -> i8 {
     me.whyamilikethis()
 }
+
+fn main() {
+    let iq: i8 = why();
+    println!("{}", iq);
+}
 ```

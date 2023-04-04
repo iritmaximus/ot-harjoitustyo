@@ -2,7 +2,7 @@
 
 ```mermaid
 
-Some function->>Machine: Machine()
+Somefunction->>Machine: Machine()
 Machine->>FuelTank: FuelTank()
 Machine->>Engine: Engine(tank)
 FuelTank->>Machine: tank(0)

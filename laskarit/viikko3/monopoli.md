@@ -8,8 +8,29 @@ Things
       Ruutu "2-8" --> "1" Pelinappula
       Pelaaja "1" --> "1" Pelinappula
       Pelaaja "1" --> "2" Noppa
+      Pelilauta "1" --> Aloitusruutu
+      Pelilauta "1" --> Vankila
 
+      class Pelilauta
+      class Pelaaja{
+          raha
+      }
       class Ruutu{
           seuraava ruutu
+          toiminto
+      }
+      class Aloitusruutu
+      class Vankila
+      class Sattuma{
+          kortit
+      }
+      class Yhteismaa{
+          kortit
+      }
+      class Asemat
+      class Laitokset
+      class Normaaliruutu{
+          talot
+          hotelli
       }
 ```

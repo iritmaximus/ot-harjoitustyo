@@ -7,6 +7,6 @@ Machine->>FuelTank: FuelTank()
 Machine->>Engine: Engine(tank)
 FuelTank->>Machine: tank(0)
 Engine->>Machine: engine()
-end
+Machine-)Somefunction: Jei
 
 ```

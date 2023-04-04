@@ -11,6 +11,14 @@ Things
       Pelilauta "1" --> Aloitusruutu
       Pelilauta "1" --> Vankila
 
+      Ruutu --|> Aloitusruutu : Perintä
+      Ruutu --|> Vankila : Perintä
+      Ruutu --|> Sattuma : Perintä
+      Ruutu --|> Yhteismaa : Perintä
+      Ruutu --|> Laitos : Perintä
+      Ruutu --|> Asemat : Perintä
+      Ruuru --|> Normaaliruutu : Perintä
+
       class Pelilauta
       class Pelaaja{
           raha

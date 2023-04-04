@@ -4,8 +4,8 @@ Things
 
 ```mermaid
  classDiagram
+      Pelilauta "1" --> "40" Ruutu
+      Ruutu "2-8" --> "1" Pelinappula
       Pelaaja "1" --> "1" Pelinappula
-      Pelilauta "1"--> "2-8" Pelinappula
-      Pelinappula "1" -- "2-8" Ruutu
       Pelaaja "1" --> "2" Noppa
 ```

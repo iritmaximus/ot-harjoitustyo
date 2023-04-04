@@ -17,7 +17,7 @@ Things
       Ruutu --|> Yhteismaa : Perintä
       Ruutu --|> Laitos : Perintä
       Ruutu --|> Asemat : Perintä
-      Ruuru --|> Normaaliruutu : Perintä
+      Ruutu --|> Normaaliruutu : Perintä
 
       class Pelilauta
       class Pelaaja{

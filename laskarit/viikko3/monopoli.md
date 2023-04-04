@@ -8,4 +8,8 @@ Things
       Ruutu "2-8" --> "1" Pelinappula
       Pelaaja "1" --> "1" Pelinappula
       Pelaaja "1" --> "2" Noppa
+
+      class Ruutu{
+          seuraava ruutu
+      }
 ```
